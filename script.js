@@ -8,3 +8,4 @@ nextBtn.onclick = () => {
 prevBtn.onclick = () => {
     slider.prepend(slider.querySelector("*:last-child"));
 }
+

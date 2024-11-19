@@ -4,6 +4,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .slider-item {
@@ -12,6 +13,7 @@
     width: 1000px;
     height: 600px;
     filter: brightness(50%);
+    transform: scale(1.2);
 }
 
 .arrows {
@@ -26,3 +28,107 @@
 .slider > *:not(:first-child) {
     display: none;
 }
+
+
+
+
+.celebrity {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.celebrity__text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.celebrity__text > h2 {
+    font-size: 45px;
+    font-weight: 400;
+    padding: 10px;
+    color: #33383C;
+}
+
+.celebrity__text > p {
+    font-size: 20px;
+    padding: 10px;
+    color: #33383C;
+}
+
+.celebrity__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.celebrity__photo {
+    width: 380px;
+    border-radius: 0%;
+}
+.steve {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.products-text{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.products__container {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    color: #222222;
+}
+.product-item:visited {
+    color: #222222;
+}
+
+
+
+
+
+
+.footer > hr {
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border: 0.5px solid #52585c;
+}
+
+.desc__container {
+    text-align: center;
+    color: #33383C;
+}
+
+.desc__container > h3 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+.desc__container > p {
+    padding: 10px 0;
+    font-size: 20px;
+    line-height: 2;
+}
+.desc__container span {
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
