@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/cars.css">
+    <link rel="stylesheet" href="../styles/real-estate.css">
 
     <title>Real Estate</title>
 </head>
@@ -23,11 +23,107 @@
                     <li><a href="cars.html">Cars</a></li>
                     <li><a href="travel.html">Travel</a></li>
                     <li><a href="real-estate.html">Real Estate</a></li>
-                    <li><a href="clothes.html">Clothes</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
+    <main>
+        <section>
+            <div class="hero">
+                <div class="hero__container">
+                    <h1>Buy the best Apartments in the world <br>through our universal catalog</h1>
+                    <a href="#calculator" id="scrollBtn">Calculate</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container gallery__container">
+                <h2>Apartment gallery</h2>
+                <div class="gallery">
+                    <div class="card">
+                        <img src="../assets/apart1.jpg" alt="">
+                        <h3>Emirates, Dubai</h3>
+                        <p>Modern 2-bedroom apartment featuring an open-plan kitchen, spacious living area, and floor-to-ceiling windows with stunning city views.</p>
+                        <h4>Price: $785,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart2.jpg" alt="">
+                        <h3>Marina, Abu Dhabi</h3>
+                        <p>Cozy studio apartment with a fully equipped kitchenette, built-in wardrobe, and a private balcony overlooking lush greenery.</p>
+                        <h4>Price: $850,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart3.jpg" alt="">
+                        <h3>Silk District, Istanbul</h3>
+                        <p>Luxurious 3-bedroom penthouse boasting a rooftop terrace, marble finishes, and a panoramic skyline view.</p>
+                        <h4>Price: $1,020,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart4.jpg" alt="">
+                        <h3>Bayfront, Singapore</h3>
+                        <p>Bright and airy 1-bedroom apartment with hardwood floors, a modern kitchen, and plenty of natural light. Walking distance to shopping centers, parks, and schools.</p>
+                        <h4>Price: $1,175,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart5.jpg" alt="">
+                        <h3>Palm Jumeirah, Dubai</h3>
+                        <p>Spacious 4-bedroom family apartment with a private garden, open-concept living area, and a fully equipped kitchen.</p>
+                        <h4>Price: $1,290,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart6.jpg" alt="">
+                        <h3>Kowloon, Hong Kong</h3>
+                        <p>Elegant 1-bedroom apartment featuring sleek finishes, a minimalist design, and a central location. Includes access to a coworking space, perfect for remote professionals.</p>
+                        <h4>Price: $910,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart7.jpg" alt="">
+                        <h3>Orchard Road, Singapore</h3>
+                        <p>Newly renovated 2-bedroom unit with high ceilings, a designer kitchen, and a balcony with breathtaking ocean views. Pet-friendly building with easy access to the beach.</p>
+                        <h4>Price: $1,650,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart8.jpg" alt="">
+                        <h3>Pearl Island, Qatar</h3>
+                        <p>Charming loft-style apartment with exposed brick walls, wooden beams, and a contemporary kitchen. Located in the heart of the city, ideal for professionals and creatives.</p>
+                        <h4>Price: $780,000</h4>
+                    </div>
+                    <div class="card">
+                        <img src="../assets/apart9.jpg" alt="">
+                        <h3>Skyline Heights, Riyadh</h3>
+                        <p>Luxury 2-bedroom apartment with smart home technology, a spa-like bathroom, and a private terrace. Close to fine dining, high-end shopping, and cultural attractions.</p>
+                        <h4>Price: $1,495,000</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="calculator" id="calculator">
+                <h3>Money exchange Calculator</h3>
+                <div class="box">
+                    <label for="tenge">Please enter Tenge to convert it to USA dollars $</label>
+                    <br>
+                    <input type="text" name="tenge" id="tenge">
+                    <button onclick="calculate()">Calculate</button>
+                    <br>
+                    <br>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer_copy">
+            <div class="container">
+                <p class="copy-text"><i class="fa-regular fa-copyright"></i> Copyright Lusso Inc. Made in Kazakhstan</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
 </body>
 </html>

@@ -64,10 +64,20 @@
 
 .celebrity__photo {
     width: 380px;
-    border-radius: 0%;
+    transition: 0.3s ease;
 }
+.celebrity__photo:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+}
+
 .steve {
     margin-bottom: 30px;
+    transition: 0.3s ease;
+}
+.steve:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.005);
 }
 
 
