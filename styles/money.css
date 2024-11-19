@@ -1,0 +1,28 @@
+/* slider */
+
+.slider {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-item {
+    object-fit: cover;
+    display: block;
+    width: 1000px;
+    height: 600px;
+    filter: brightness(50%);
+}
+
+.arrows {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider > *:not(:first-child) {
+    display: none;
+}
