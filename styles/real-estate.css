@@ -132,7 +132,30 @@ html {
     padding: 10px 15px;
     border-radius: 10px;
     transition: 0.5s ease;
+    margin-bottom: 100px;
 }
 .num-form > button:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+
+
+
+.quiz {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.quiz > ul {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.quiz > button {
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: block;
 }

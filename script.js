@@ -41,3 +41,8 @@ document.getElementById("scrollBtn").addEventListener("click", function (e) {
 
     requestAnimationFrame(smoothScroll);
 });
+
+
+function check() {
+    alert("Correct!");
+}
